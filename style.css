@@ -6,16 +6,22 @@
   box-sizing: border-box;
 }
 
+:root {
+  --backGroundColor: #500000;
+  --lightBackground: #964d4d;
+  --whiTe: #ffffff;
+}
+
 body {
   height: 100vh;
-  background: #009F0A;
+  background: var(--backGroundColor);
 }
 
 .container {
   width: 40%;
   top: 50%;
   left: 50%;
-  background: white;
+  background: var(--lightBackground);
   border-radius: 10px;
   min-width: 450px;
   position: absolute;
@@ -66,7 +72,7 @@ body {
   border-radius: 10px;
   width: 100%;
   position: relative;
-  background-color: #ffffff;
+  background-color: var(--lightBackground);
   padding: 30px 20px;
   margin-top: 10px;
 }
