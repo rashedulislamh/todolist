@@ -23,3 +23,5 @@ document.querySelector('#push').onclick = function() {
     }
   }
 }
+
+console.dir(html);
